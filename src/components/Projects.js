@@ -13,7 +13,7 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const projects = [
     {
-      title: "PortfoliZen",
+      title: "PortfolioZen",
       description: "My Creative Sanctuary",
       imgUrl: projImg1,
     },
