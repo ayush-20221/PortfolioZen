@@ -34,7 +34,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I possess proficiency in various programming languages, including C, C++, Python (Tkinter GUI), and Java. Moreover, I am well-versed in developer tools such as HTML, CSS, JavaScript, and Node.js. Additionally, I have experience with frameworks like React.js and Vue.js, as well as databases like MongoDB, SQL Server, and Google Firebase.</p>
+                        <p>I possess proficiency in a range of programming languages, including C++, Java and JavaScript. My expertise extends to databases such as MySQL and MongoDB, and I am well-versed in frameworks like React.js and Node.js. Additionally, I have a strong foundation in Computer Science fundamentals like Data Structures and Algorithms (DSA), Object-Oriented Programming (OOPs), and Operating Systems.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
 
 
@@ -60,15 +60,15 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>React</h5>
+                                <h5>React.js</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Node JS</h5>
+                                <h5>Node.js</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>FireBase</h5>
+                                <h5>SQL</h5>
                             </div>
                            
                         </Carousel>

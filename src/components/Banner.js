@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -59,6 +59,9 @@ export const Banner = () => {
                   <p> I am a highly accomplished and promising individual with a strong academic background, technical expertise, and active involvement in the programming community. My dedication and passion for Computer Science and Engineering will undoubtedly contribute to my success in the field.</p>
                   <a href="https://github.com/ayush-20221">
                   <button onClick={() => console.log('connect')}> My Github Repo <ArrowRightCircle size={25} /></button>
+                  </a> 
+                  <a href="https://drive.google.com/file/d/1sn24gNyjiQlW_A1XpOg4Hyx_90ZmiWXP/view?usp=sharing">
+                  <button onClick={() => console.log('connect')}> My Resume<ArrowRightCircle size={25} /></button>
                   </a> 
               </div>}
             </TrackVisibility>
